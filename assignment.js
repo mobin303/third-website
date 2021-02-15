@@ -64,4 +64,22 @@ function hotalCost(day) {
 var result = hotalCost(30);
 console.log(result);
 
+// magaFriend
+
+function megaFriend(listOfFriends = ["Karim", " Shishir", " Asad", " Mohsin", "Fahmidul Islam"]) {
+
+    var mega = listOfFriends[0];
+    for (i = 0; i < listOfFriends.length; i++) {
+         if (listOfFriends[i].length > mega.length) {
+            mega = listOfFriends[i];
+        }
+    }
+    return mega;
+}
+ var result = megaFriend(listOfFriends = ["Mobin", "Mobarok Hossain", " Mobarok Hossain Mobin"]);
+ console.log(result);
+
+
+
+
 
